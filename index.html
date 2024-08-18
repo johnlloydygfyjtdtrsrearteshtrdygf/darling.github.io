@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BINI PH</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <section class="slider-container">
+    <div class="slider-images">
+      <div class="slider-img">
+        <img src="dianne.png" alt="1" class="thumbnail">
+        <img src="dianne.png" alt="1" class="gif" style="opacity:100%">
+
+        <h1 class="jo">MYLOVE</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne2.png" alt="1" class="thumbnail">
+        <img src="dianne2.png" alt="1" class="gif" style="opacity:100%">
+        <h1 class="gwen">HONEY</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne3.jpg" alt="1" class="thumbnail">
+        <img src="dianne3.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="maloi">MOMMY</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne8.jpg" alt="1" class="thumbnail">
+        <img src="dianne8.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="colet">BABY</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne7.jpg" alt="1" class="thumbnail">
+        <img src="dianne7.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="mikha">LOVE</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne4.jpg" alt="1" class="thumbnail">
+        <img src="dianne4.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="sheena">PRINCESS</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne5.jpg" alt="1" class="thumbnail">
+        <img src="dianne5.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="aiah">WIFE</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+      <div class="slider-img">
+        <img src="dianne6.jpg" alt="1" class="thumbnail">
+        <img src="dianne6.jpg" alt="1" class="gif" style="opacity:100%">
+        <h1 class="stacey">DARLING</h1>
+        <div class="details">
+          <h2>DIANNE MORALES</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".slider-img").on("click", function () {
+        $(".slider-img").removeClass("active");
+        $(this).addClass("active");
+      });
+    });
+  </script>
+    <style>
+      .gif {
+        display: none;
+      }
+      .active .gif {
+        display: block;
+      }
+      .active .thumbnail {
+        display: none;
+      }
+    </style>
+</body>
+</html>
+  
